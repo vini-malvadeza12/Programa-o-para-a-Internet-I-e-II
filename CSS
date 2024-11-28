@@ -1,0 +1,90 @@
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+.gridprodutos{
+    display: grid;
+    gap: 15px;
+    background-color: rgb(66, 66, 66);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    justify-content: center;
+    justify-items: center;
+    align-items: center; 
+}
+.caixa1{
+    height: 150px;
+    background-color: rgb(159, 29, 29) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.caixa2{
+    height: 150px;
+    background-color: rgb(159, 29, 29) ;
+    display: flex;
+    align-items: center;
+}
+.produtos{
+    height: 180px;
+    width: 140px;
+    position: relative;
+}
+
+.griditen {
+    width: 300px;
+    height: 180px;
+}
+
+.red {
+    background-color: rgb(159, 29, 29);
+}
+
+.letras1{
+    color: white;
+    font-family: "Jaro", serif;
+    font-size: 35px;
+}
+
+.letras2{
+    color: white;
+    font-family: "Jaro", serif;
+    font-size: 25px;
+}
+
+.preços1{
+    color: rgb(0, 0, 0);
+    font-family: "Jaro", serif;
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.preços2{
+    color: rgb(255, 0, 0);
+    font-family: "Jaro", serif;
+    font-size: 35px;
+    position: absolute;
+    top: 38px;
+}
+
+.preços3{
+    color: rgb(255, 0, 0);
+    font-family: "Jaro", serif;
+    font-size: 35px;
+    position: absolute;
+    top: 37px;
+}
+
+.insta{
+    width: 60px;
+    height: 60px;
+}
+.tiktok{
+    width: 60px;
+    height: 40px;
+}
+
+@media (min-500px) {
+    
+}
